@@ -1,4 +1,4 @@
-SQL (2022.03.30) - Mimo app (SQL Aggregate - Rename)
+SQL (2022.03.30) - Mimo app (SQL Aggregate - AS (alias))
 
 ______________________________________________
 | contacts                                   |
