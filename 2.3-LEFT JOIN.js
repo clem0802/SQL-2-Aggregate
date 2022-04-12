@@ -35,7 +35,7 @@ ON student.id = enrolled.student_id;
 
 // LEFT JOIN gets matching rows, but also keep the ones without a match from the first table
 // LEFT JOIN makes appear "ALL rows, regardless of whether they have a match or not"
-// and for the "right table", only those having a match in the "left table"
+// and for the "right table", ONLY the matching ones from "left table"
 SELECT *
 FROM student   => (left table, we SELECT)
 LEFT JOIN enrolled   => (right table, we JOIN)
