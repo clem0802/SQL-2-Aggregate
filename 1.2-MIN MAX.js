@@ -24,3 +24,10 @@ SELECT MIN(price) AS cheapest
 FROM ticket;
 // cheapest   => cheapest: "alias" name shown in the result
 // 0
+
+/*--------------------------------------------*/
+SELECT first_name, last_name, MAX(highest_score)
+FROM Scores;
+// cfirst_name   last_name     MAX(highest_score)
+// Steven        Benhoff       3230
+
