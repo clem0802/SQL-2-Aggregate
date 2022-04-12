@@ -66,6 +66,29 @@ FROM team;
 
 
 
+/*-----------------------------------------------*/
+// the two queries don't give the same result:
+// because "hours" has an empty cell, so COUNT(hours) give "2"
+________________________
+| project_time          |
+------------------------
+| employee      | hours |
+------------------------
+| Mike          | 8     |  
+------------------------
+| Mona          |       |  
+------------------------
+| Mary          | 12    |
+------------------------
+
+SELECT COUNT(*)
+FROM project_time;
+             
+SELECT COUNT(hours)
+FROM project_time;
+
+
+
 
 
 
