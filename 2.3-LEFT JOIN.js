@@ -98,5 +98,8 @@ ON student.id = enrolled.student_id;
 
 
 
-
-
+/*------------------------------------------------*/ (Mimo Dev Desktop / exo)
+SELECT heroes.name AS heroes, villains.villain_name AS villains
+FROM villains
+LEFT JOIN heroes
+ON heroes.id = villains.hero_id;
