@@ -78,7 +78,12 @@ GROUP BY grade;
 // C        1
                     
                     
-                    
+/*---------------------------------*/ (!!) 
+// here we use "category" or "COUNT(*)" to filter the groups
+SELECT category, COUNT(*)
+FROM wishlist
+GROUP BY category
+WHERE category LIKE 's%';
                     
                     
                     
