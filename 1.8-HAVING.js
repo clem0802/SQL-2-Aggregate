@@ -24,8 +24,6 @@ HAVING COUNT(*) > 1;
 // A        2
 
 
-// "HAVING" is like a "WHERE" for groups
-// we select only those groups having a "students" count over "1"
 // we omit-exclude the results for the grade 'A'
 SELECT grade, COUNT(*) AS students
 FROM test
